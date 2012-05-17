@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<rss version="2.0">
+    <channel>
+        <title>Regali</title>
+        <item>
+            <title>iPhone 3 Cover</title>
+            <description>iphone 3G/3GS cover personalizzata</description>
+            <guid>179151805173890636</guid>
+            <enclosure url="iphone3_cover%@.jpeg" />            
+        </item>
+        <item>
+            <title>iPhone 4 Cover</title>
+            <description>iphone 4/4S cover personalizzata</description>
+            <guid>179288486673940119</guid>
+            <enclosure url="iphone4_cover%@.jpeg" />            
+        </item>
+        <item>
+            <title>Biglietti di auguri</title>
+            <description>biglietti di auguri personalizzati</description>
+            <guid>137200723343664417</guid>
+            <enclosure url="cards%@.jpeg" />            
+        </item>
+        <item>
+            <title>Tappetino Mouse</title>
+            <description>tappetino mause personalizzato</description>
+            <guid>144564542675011430</guid>
+            <enclosure url="mousepad%@.jpeg" />            
+        </item>
+        <item>
+            <title>Tazze</title>
+            <description>vari tipi di tazze personalizzate</description>
+            <guid>168854141235863796</guid>
+            <enclosure url="mugs%@.jpeg" />            
+        </item>
+        <item>
+            <title>Cuscini</title>
+            <description>cuscini personalizzati</description>
+            <guid>189744386532501559</guid>
+            <enclosure url="pillows%@.jpeg" />            
+        </item>
+        <item>
+            <title>Adesivi</title>
+            <description>adesivi personalizzati</description>
+            <guid>217054618665606484</guid>
+            <enclosure url="stickers%@.jpeg" />            
+        </item>
+        <item>
+            <title>Magliette per donne</title>
+            <description>magliette personalizzate</description>
+            <guid>235334919151472417</guid>
+            <enclosure url="tshirt_lady%@.jpeg" />            
+        </item>
+        <item>
+            <title>Magliette per uomo</title>
+            <description>magliette personalizzate</description>
+            <guid>235262998896712219</guid>
+            <enclosure url="tshirt_man%@.jpeg" />            
+        </item>
+    </channel>
+</rss>

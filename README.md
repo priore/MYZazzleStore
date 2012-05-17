@@ -37,7 +37,7 @@ Using the delegates provided by the framework, you can also customize the image 
 * [MWFeedParser](https://github.com/priore/MWFeedParser)
 * MYZazzle Library (FREE!!)
 
-## Screeshot
+## Screenshot
 
 ![MYZazzleStore](http://www.prioregroup.com/images/github/myzazzlestore.jpg)
  

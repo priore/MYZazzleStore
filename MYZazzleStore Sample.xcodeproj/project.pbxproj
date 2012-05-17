@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1311F3F7154F086D00478840 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1311F3F6154F086D00478840 /* UIKit.framework */; };
+		1311F3F9154F086D00478840 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1311F3F8154F086D00478840 /* Foundation.framework */; };
+		1311F3FB154F086D00478840 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1311F3FA154F086D00478840 /* CoreGraphics.framework */; };
+		1311F401154F086D00478840 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1311F3FF154F086D00478840 /* InfoPlist.strings */; };
+		1311F403154F086D00478840 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1311F402154F086D00478840 /* main.m */; };
+		1311F407154F086D00478840 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1311F406154F086D00478840 /* AppDelegate.m */; };
+		1311F40A154F086D00478840 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1311F409154F086D00478840 /* ViewController.m */; };
+		1311F40D154F086D00478840 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1311F40B154F086D00478840 /* ViewController.xib */; };
+		131FB3621552CAA1008F56AA /* myzazzlestore.png in Resources */ = {isa = PBXBuildFile; fileRef = 131FB3611552CAA1008F56AA /* myzazzlestore.png */; };
+		131FB40415533A40008F56AA /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 131FB40315533A40008F56AA /* icon.png */; };
+		131FB40615533A43008F56AA /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 131FB40515533A43008F56AA /* icon@2x.png */; };
+		131FB41D15533D09008F56AA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 131FB41C15533D09008F56AA /* QuartzCore.framework */; };
+		133C3E0615587F6200D43CC6 /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 133C3DF815587F6200D43CC6 /* GTMNSString+HTML.m */; };
+		133C3E0715587F6200D43CC6 /* MWFeedInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 133C3DFA15587F6200D43CC6 /* MWFeedInfo.m */; };
+		133C3E0815587F6200D43CC6 /* MWFeedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 133C3DFC15587F6200D43CC6 /* MWFeedItem.m */; };
+		133C3E0915587F6200D43CC6 /* MWFeedParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 133C3DFF15587F6200D43CC6 /* MWFeedParser.m */; };
+		133C3E0A15587F6200D43CC6 /* NSDate+InternetDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 133C3E0115587F6200D43CC6 /* NSDate+InternetDateTime.m */; };
+		133C3E0B15587F6200D43CC6 /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 133C3E0315587F6200D43CC6 /* NSString+HTML.m */; };
+		133C3E0C15587F6200D43CC6 /* NSString+XMLEntities.m in Sources */ = {isa = PBXBuildFile; fileRef = 133C3E0515587F6200D43CC6 /* NSString+XMLEntities.m */; };
+		13D80EB9155C972800F43988 /* MYZazzleStore.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 13D80EB7155C972800F43988 /* MYZazzleStore.bundle */; };
+		13D80EBA155C972800F43988 /* MYZazzleStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D80EB8155C972800F43988 /* MYZazzleStore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1311F3F2154F086D00478840 /* MYZazzleStore Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MYZazzleStore Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1311F3F6154F086D00478840 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1311F3F8154F086D00478840 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1311F3FA154F086D00478840 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1311F3FE154F086D00478840 /* MYZazzleStore Sample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MYZazzleStore Sample-Info.plist"; sourceTree = "<group>"; };
+		1311F400154F086D00478840 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1311F402154F086D00478840 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1311F404154F086D00478840 /* MYZazzleStore Sample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MYZazzleStore Sample-Prefix.pch"; sourceTree = "<group>"; };
+		1311F405154F086D00478840 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1311F406154F086D00478840 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1311F408154F086D00478840 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1311F409154F086D00478840 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1311F40C154F086D00478840 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		131FB3611552CAA1008F56AA /* myzazzlestore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myzazzlestore.png; sourceTree = "<group>"; };
+		131FB40315533A40008F56AA /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
+		131FB40515533A43008F56AA /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "../icon@2x.png"; sourceTree = "<group>"; };
+		131FB41C15533D09008F56AA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		133C3DF715587F6200D43CC6 /* GTMNSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSString+HTML.h"; sourceTree = "<group>"; };
+		133C3DF815587F6200D43CC6 /* GTMNSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+HTML.m"; sourceTree = "<group>"; };
+		133C3DF915587F6200D43CC6 /* MWFeedInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWFeedInfo.h; sourceTree = "<group>"; };
+		133C3DFA15587F6200D43CC6 /* MWFeedInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWFeedInfo.m; sourceTree = "<group>"; };
+		133C3DFB15587F6200D43CC6 /* MWFeedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWFeedItem.h; sourceTree = "<group>"; };
+		133C3DFC15587F6200D43CC6 /* MWFeedItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWFeedItem.m; sourceTree = "<group>"; };
+		133C3DFD15587F6200D43CC6 /* MWFeedParser_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWFeedParser_Private.h; sourceTree = "<group>"; };
+		133C3DFE15587F6200D43CC6 /* MWFeedParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWFeedParser.h; sourceTree = "<group>"; };
+		133C3DFF15587F6200D43CC6 /* MWFeedParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWFeedParser.m; sourceTree = "<group>"; };
+		133C3E0015587F6200D43CC6 /* NSDate+InternetDateTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+InternetDateTime.h"; sourceTree = "<group>"; };
+		133C3E0115587F6200D43CC6 /* NSDate+InternetDateTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+InternetDateTime.m"; sourceTree = "<group>"; };
+		133C3E0215587F6200D43CC6 /* NSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HTML.h"; sourceTree = "<group>"; };
+		133C3E0315587F6200D43CC6 /* NSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HTML.m"; sourceTree = "<group>"; };
+		133C3E0415587F6200D43CC6 /* NSString+XMLEntities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XMLEntities.h"; sourceTree = "<group>"; };
+		133C3E0515587F6200D43CC6 /* NSString+XMLEntities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XMLEntities.m"; sourceTree = "<group>"; };
+		13D80EB7155C972800F43988 /* MYZazzleStore.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MYZazzleStore.bundle; sourceTree = "<group>"; };
+		13D80EB8155C972800F43988 /* MYZazzleStore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MYZazzleStore.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1311F3EF154F086D00478840 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				131FB41D15533D09008F56AA /* QuartzCore.framework in Frameworks */,
+				1311F3F7154F086D00478840 /* UIKit.framework in Frameworks */,
+				1311F3F9154F086D00478840 /* Foundation.framework in Frameworks */,
+				1311F3FB154F086D00478840 /* CoreGraphics.framework in Frameworks */,
+				13D80EBA155C972800F43988 /* MYZazzleStore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1311F3E7154F086D00478840 = {
+			isa = PBXGroup;
+			children = (
+				1311F3FC154F086D00478840 /* MYZazzleStore Sample */,
+				1311F3F5154F086D00478840 /* Frameworks */,
+				1311F3F3154F086D00478840 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1311F3F3154F086D00478840 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1311F3F2154F086D00478840 /* MYZazzleStore Sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1311F3F5154F086D00478840 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				131FB41C15533D09008F56AA /* QuartzCore.framework */,
+				1311F3F6154F086D00478840 /* UIKit.framework */,
+				1311F3F8154F086D00478840 /* Foundation.framework */,
+				1311F3FA154F086D00478840 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1311F3FC154F086D00478840 /* MYZazzleStore Sample */ = {
+			isa = PBXGroup;
+			children = (
+				1311F405154F086D00478840 /* AppDelegate.h */,
+				1311F406154F086D00478840 /* AppDelegate.m */,
+				1311F408154F086D00478840 /* ViewController.h */,
+				1311F409154F086D00478840 /* ViewController.m */,
+				1311F40B154F086D00478840 /* ViewController.xib */,
+				131FB40315533A40008F56AA /* icon.png */,
+				131FB40515533A43008F56AA /* icon@2x.png */,
+				131FB3611552CAA1008F56AA /* myzazzlestore.png */,
+				13D80EB6155C972800F43988 /* MYZazzleStore */,
+				13CE613915570966000ED11C /* MWFeedParser */,
+				1311F3FD154F086D00478840 /* Supporting Files */,
+			);
+			path = "MYZazzleStore Sample";
+			sourceTree = "<group>";
+		};
+		1311F3FD154F086D00478840 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1311F3FE154F086D00478840 /* MYZazzleStore Sample-Info.plist */,
+				1311F3FF154F086D00478840 /* InfoPlist.strings */,
+				1311F402154F086D00478840 /* main.m */,
+				1311F404154F086D00478840 /* MYZazzleStore Sample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13CE613915570966000ED11C /* MWFeedParser */ = {
+			isa = PBXGroup;
+			children = (
+				133C3DF715587F6200D43CC6 /* GTMNSString+HTML.h */,
+				133C3DF815587F6200D43CC6 /* GTMNSString+HTML.m */,
+				133C3DF915587F6200D43CC6 /* MWFeedInfo.h */,
+				133C3DFA15587F6200D43CC6 /* MWFeedInfo.m */,
+				133C3DFB15587F6200D43CC6 /* MWFeedItem.h */,
+				133C3DFC15587F6200D43CC6 /* MWFeedItem.m */,
+				133C3DFD15587F6200D43CC6 /* MWFeedParser_Private.h */,
+				133C3DFE15587F6200D43CC6 /* MWFeedParser.h */,
+				133C3DFF15587F6200D43CC6 /* MWFeedParser.m */,
+				133C3E0015587F6200D43CC6 /* NSDate+InternetDateTime.h */,
+				133C3E0115587F6200D43CC6 /* NSDate+InternetDateTime.m */,
+				133C3E0215587F6200D43CC6 /* NSString+HTML.h */,
+				133C3E0315587F6200D43CC6 /* NSString+HTML.m */,
+				133C3E0415587F6200D43CC6 /* NSString+XMLEntities.h */,
+				133C3E0515587F6200D43CC6 /* NSString+XMLEntities.m */,
+			);
+			path = MWFeedParser;
+			sourceTree = "<group>";
+		};
+		13D80EB6155C972800F43988 /* MYZazzleStore */ = {
+			isa = PBXGroup;
+			children = (
+				13D80EB7155C972800F43988 /* MYZazzleStore.bundle */,
+				13D80EB8155C972800F43988 /* MYZazzleStore.framework */,
+			);
+			path = MYZazzleStore;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1311F3F1154F086D00478840 /* MYZazzleStore Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1311F413154F086D00478840 /* Build configuration list for PBXNativeTarget "MYZazzleStore Sample" */;
+			buildPhases = (
+				1311F3EE154F086D00478840 /* Sources */,
+				1311F3EF154F086D00478840 /* Frameworks */,
+				1311F3F0154F086D00478840 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MYZazzleStore Sample";
+			productName = "MYZazzleStore Sample";
+			productReference = 1311F3F2154F086D00478840 /* MYZazzleStore Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1311F3E9154F086D00478840 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Prioregroup.com;
+			};
+			buildConfigurationList = 1311F3EC154F086D00478840 /* Build configuration list for PBXProject "MYZazzleStore Sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1311F3E7154F086D00478840;
+			productRefGroup = 1311F3F3154F086D00478840 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1311F3F1154F086D00478840 /* MYZazzleStore Sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1311F3F0154F086D00478840 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1311F401154F086D00478840 /* InfoPlist.strings in Resources */,
+				1311F40D154F086D00478840 /* ViewController.xib in Resources */,
+				131FB3621552CAA1008F56AA /* myzazzlestore.png in Resources */,
+				131FB40415533A40008F56AA /* icon.png in Resources */,
+				131FB40615533A43008F56AA /* icon@2x.png in Resources */,
+				13D80EB9155C972800F43988 /* MYZazzleStore.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1311F3EE154F086D00478840 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1311F403154F086D00478840 /* main.m in Sources */,
+				1311F407154F086D00478840 /* AppDelegate.m in Sources */,
+				1311F40A154F086D00478840 /* ViewController.m in Sources */,
+				133C3E0615587F6200D43CC6 /* GTMNSString+HTML.m in Sources */,
+				133C3E0715587F6200D43CC6 /* MWFeedInfo.m in Sources */,
+				133C3E0815587F6200D43CC6 /* MWFeedItem.m in Sources */,
+				133C3E0915587F6200D43CC6 /* MWFeedParser.m in Sources */,
+				133C3E0A15587F6200D43CC6 /* NSDate+InternetDateTime.m in Sources */,
+				133C3E0B15587F6200D43CC6 /* NSString+HTML.m in Sources */,
+				133C3E0C15587F6200D43CC6 /* NSString+XMLEntities.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1311F3FF154F086D00478840 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1311F400154F086D00478840 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1311F40B154F086D00478840 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1311F40C154F086D00478840 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1311F411154F086D00478840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1311F412154F086D00478840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1311F414154F086D00478840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/MYZazzleStore Sample/MYZazzleStore\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MYZazzleStore Sample/MYZazzleStore Sample-Prefix.pch";
+				INFOPLIST_FILE = "MYZazzleStore Sample/MYZazzleStore Sample-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/MYZazzleStore Sample/WebBrowser\"",
+					"\"$(SRCROOT)/MYZazzleStore Sample/MWFeedParser\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "$(inherited) \"$(SRCROOT)/MYZazzleStore Sample/WebBrowser\" \"$(SRCROOT)/MYZazzleStore Sample/MWFeedParser\"";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1311F415154F086D00478840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/MYZazzleStore Sample/MYZazzleStore\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MYZazzleStore Sample/MYZazzleStore Sample-Prefix.pch";
+				INFOPLIST_FILE = "MYZazzleStore Sample/MYZazzleStore Sample-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/MYZazzleStore Sample/WebBrowser\"",
+					"\"$(SRCROOT)/MYZazzleStore Sample/MWFeedParser\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "$(inherited) \"$(SRCROOT)/MYZazzleStore Sample/WebBrowser\" \"$(SRCROOT)/MYZazzleStore Sample/MWFeedParser\"";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1311F3EC154F086D00478840 /* Build configuration list for PBXProject "MYZazzleStore Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1311F411154F086D00478840 /* Debug */,
+				1311F412154F086D00478840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1311F413154F086D00478840 /* Build configuration list for PBXNativeTarget "MYZazzleStore Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1311F414154F086D00478840 /* Debug */,
+				1311F415154F086D00478840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1311F3E9154F086D00478840 /* Project object */;
+}
