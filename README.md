@@ -36,6 +36,7 @@ Using the delegates provided by the framework, you can also customize the image 
 
 * [MWFeedParser](https://github.com/priore/MWFeedParser)
 * MYZazzle Library (FREE!!)
+* TO ENABLE THE FRAMEWORK (FREE!!) WE NEED TO KNOW YOUR DOMAIN OR DOMAINS IN WICH IMAGES ARE LOCATED (![click here](mailto:support@prioregroup.com?subject=MYZazzleStore%20Domains))
 
 ## Screenshot
 
