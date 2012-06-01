@@ -8,15 +8,15 @@
 #import <UIKit/UIKit.h>
 
 typedef enum {
-    iPhone3GS = 179151805173890636,
-    iPhone4 = 179288486673940119,
-    GreetinsCard = 137200723343664417,
-    Mousepad = 144564542675011430,
-    Mug = 168854141235863796,
-    Pillow = 189744386532501559,
-    Stickers = 217054618665606484,
-    TShirtLedies = 235334919151472417,
-    TShirtMan = 235262998896712219
+    iPhone3GS = 0,
+    iPhone4 = 1,
+    GreetinsCard = 2,
+    Mousepad = 3,
+    Mug = 4,
+    Pillow = 5,
+    Stickers = 6,
+    TShirtLedies = 7,
+    TShirtMan = 8
 } MYZazzleProductId;
 
 @protocol MYZazzleStoreDelegate;
@@ -55,5 +55,6 @@ typedef enum {
 - (void)myZazzleStore:(MYZazzleStore*)myZazzleStore didFinish:(NSString*)storeTitle;
 - (BOOL)myZazzleStore:(MYZazzleStore*)myZazzleStore didAddProductId:(MYZazzleProductId)productId; 
 - (NSString*)myZazzleStore:(MYZazzleStore*)myZazzleStore imageForSelectedProductId:(MYZazzleProductId)productId;
+- (void)myZazzleStore:(MYZazzleStore*)myZazzleStore openStore:(NSURL*)url;
 
 @end
